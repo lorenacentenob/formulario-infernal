@@ -1,3 +1,95 @@
-body{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background: linear-gradient(navy , teal);
+    color: #24303c;
+  }
+  .title{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #24303c;
+    text-align: center;
     font-family: sans-serif;
+  }
+  hr {
+    background-color: #24303c;
+    height: 1px;
+  }
+  .form-register {
+    width: 400px;
+    background:  lavender;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    color: gray;
+    box-shadow: 7px 13px 37px #000;
+    text-align: center;
+    font-family: sans-serif;
+  }
+ 
+  .form_input{
+    width: 60%;
+    background: none;
+    color: gray;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    font-family: sans-serif;
+    text-align: left;
+    font-size: 15px;
+
+  }
+.form_label{
+    width: 50%;
+    text-align: right;
+    font-size: 15px;
+}  
+  .button {
+    width: 100%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    box-shadow: 2px 3px 9px #686666;
+  } 
+.table-title{
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 20 px;
+
+}
+.table{
+    width: 100%;
+    border-collapse: separate;
+    letter-spacing: 1px;
+    padding: 15px;
+    margin: 15px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.th{
+    border-collapse: separate;
+    padding: 15px;
+    margin: 15px;
+    background: rgb(1, 1, 37);
+    color: lavender;
+    text-align: center;
+}
+.tb{
+    border-collapse: separate;
+    padding: 15px;
+    margin: 15px;
+    background: lavender;
+    color: rgb(1, 1, 37);
+    text-align: center;
 }
